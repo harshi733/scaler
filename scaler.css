@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    background-color: #37517e;
+    width: 100%;
+
+    * {
+        color: white;
+    }
+
+}
