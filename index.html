@@ -2,60 +2,207 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="style.css" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Scaler academy</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Cirriculum</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Teaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mentorship</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Community</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Carrers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQs</a>
-          </li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <img
+                src="https://assets-v2.scaler.com/assets/academy/svg/scaler-53f7b55b0dc3a8f18264d872fd53821b101c3bb6c5c1b282e609e41bae2641a3.svg.gz">
+            <!-- <a class="navbar-brand" href="#"></a> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center flex-grow-1" id="mouni">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQs</a>
+                    </li>
+                </ul>
+                <button class="btn text-dark btn-outline-primary m-2" type="submit">Login</button>
+            </div>
+            <button class="btn bg-danger text-light m-2" type="submit">Request a call</button>
 
-        </ul>
-      </div>
+            <button class="navbar-toggler" id="Dashboard" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div id="home">
+        <div id="home1">
+            <h2>Your Path to a Successful Tech Career!</h2>
+            <div id="sec">Now experience the program for <b>FREE</b> </div>
+            <div id="two">
+                <button>Book a Live Class</button>
+                <button>Explore Academy</button>
+            </div>
+            <div id="thi"> NEXT BATCH STARTS<b> MID-OCTOBER </b></div>
+        </div>
+        <div id="home2">
+            <div id="one">Book a Live Class, For <b>Free!</b></div>
+            <div id="login">
+                <input class="name" type="text" placeholder="Name" aria-label=".form-control-lg example">
+                <input class="email" type="text" placeholder="Email" aria-label="default input example">
+                <div class="phone">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">+91</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Enter Number</a></li>
+                        <li><a class="dropdown-item" href="#">Alternate Number</a></li>
+                    </ul>
+                    <input type="text" class="phno" aria-label="Text input with dropdown button">
+                    <div id="all">
+                        <div id="fir">
+                            <div class="dropdown-center">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Graduation
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Enter Course</a></li>
+                                </ul>
+                            </div>
+                            <select class="coll" aria-label="Large select example">
+                                <option selected>College</option>
+                                <option value="1">Type to Search</option>
+                            </select>
+                        </div>
+                        <select class="coll1" aria-label="Large select example">
+                            <option selected>Company</option>
+                            <option value="1">Type to Search</option>
+                        </select>
+                        <select class="coll2" aria-label="Large select example">
+                            <option selected>Job Title</option>
+                            <option value="1">Type to Search</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="home3">
+                <button>Continue Booking Live Class</button>
+                <img id="peo"
+                    src="https://assets-v2.scaler.com/assets/scaler/svg/people-group-61788bad09e0699aa3090ab64b81944c9fc9ccb80ff5db9abb267dd36e0d626d.svg.gz"
+                    alt="people">
+                <div>Limited seats left</div>
+            </div>
+            <div id="home4">
+                <div id="fir">Already have an account?</div>
+                <div>Click here</div>
+            </div>
+            <div>By creating an account I have read and agree to Scaler’s <u>Terms </u>and <u>Privacy Policy</u></div>
+        </div>
     </div>
-    <button class="mx-lg-3" id="get">Login</button>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <button class="mx-lg-3" id="get">Request a call</button>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
+    </div>
+    <div id="program">
+        <div id="programhead">A program for engineers to master <b>Problem Solving & System Design</b></div>
+        <div class="card-group">
+            <div class="card" id="card1">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/structured-c36517d8d41efb3a24cbcb3fe1c8b27ffcfacb6b1462ec3e60516504a07eaff6.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Structured, industry vetted curriculum</p>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/live-classes-afff2e39f63a26a19ee4ae844d4b0891c20c50e4b670a224564640cbb973f867.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Live classes by faculty who have been there, done that</p>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/project1-9fc6130d4e271198d5f051da0712b27627c872a353dac61c91f248e4f60b6ddf.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Practical experience through real-life projects</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card" id="card4">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/flexibility-94067174b36a4a38b3448219f64ccd3e42b3f32667c5ff0ec8d8fab665525d87.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Regular 1:1 mentorship from industry veterans</p>
+                </div>
+            </div>
+            <div class="card" id="card5">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/career-support-c92399914995cba52680341de44c1ce49d292b1de0f10aeb58c3c58a79e3ad3b.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Career support via a dedicated recruitment team, alumni network, etc.</p>
+                </div>
+            </div>
+            <div class="card" id="card6">
+                <img src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/mentor-efc7b3e100e7f2bd17f1f95f4ca28b5205ac3f4e04d4cddd064a800cc63f1c74.svg.gz"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Aspirational peer group of 2,000+ Scaler students & alumni</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="flexible">
+        <div id="flexiblehead">We have designed a <b>flexible program </b>for you</div>
+        <div id="flexiblesub">
+            <div id="card1">
+                <img
+                    src="https://assets-v2.scaler.com/assets/academy/svg/missed-class-logo-60d09407cfb901d01f9acbf3ce40460ea42c291dc97dd6a8d9fe624594977239.svg.gz">
+                <div id="cardhead">Missed a class?</div>
+                <div id="cardsub">Watch the recording later, with teaching assistants available to solve your doubts
+                </div>
+            </div>
+            <div id="card1">
+                <img
+                    src="https://assets-v2.scaler.com/assets/academy/svg/family-logo-48c3a44b9f17f1e1a6ebcfa8e9ec7fa2370c27094caf996810c02754e307b3d1.svg.gz">
+                <div id="cardhead">Work / family needs time?</div>
+                <div id="cardsub">Pause your course and restart a month later with the next batch!</div>
+            </div>
+            <div id="card1">
+                <img
+                    src="https://assets-v2.scaler.com/assets/academy/svg/office-d6141a2e19c03a99003316e141cdb625675a0498ba05e2df5d4ebb128bc21418.svg.gz">
+                <div id="cardhead">Jobs & class timings clash?</div>
+                <div id="cardsub">Decide your ideal class timing together with your classmates</div>
+            </div>
+        </div>
+        <div id="flexiblesub">
+            <div id="card1">
+                <img id="img1"
+                    src="https://assets-v2.scaler.com/assets/academy/svg/revise-8aceca46e65750c791c12d778669bf01650ef9e02c2d211ba30c6831c34946ab.svg.gz">
+                <div id="cardhead">Want to revise?</div>
+                <div id="cardsub">Access assignments/notes lifelong and recordings upto 6 months post course completion
+                </div>
+            </div>
+            <div id="card1">
+                <img
+                    src="https://assets-v2.scaler.com/assets/academy/svg/doubts-44d18551b6589cdeff9e88978faac43d7bb0787cdc74e508832d7692b4d4158b.svg.gz">
+                <div id="cardhead">Have doubts?</div>
+                <div id="cardsub">Get them resolved over text / video by our expert teaching assistants!</div>
+            </div>
+        </div>
+    </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </html>
